@@ -172,6 +172,15 @@ There should now be a faded yellow squiggle under `Point2D`. Click somewhere on 
 
 ### Task 1: Admire the simplicity of the `Point2D` `record` vs. the original equivalently functional `Point2D` `class`.
 
-## Part 4: File Submissions
+## Part 4: Submit Work to Private GitHub Repo
 
-Upload your filled out version of this `README` and your simplified `SubDirLister`, and `Point2D` Java Source files to the corresponding D2L dropbox.
+1. Create a new empty and **private** GitHub repository named `CSC213Lab4`.
+   - The assignment will not be graded if the repo is not **private**.
+2. Clone this empty repo locally.
+3. Copy and paste your filled out version of this `README` and your simplified `SubDirLister`, and `Point2D` Java source files into this local repo.
+4. Commit and push your changes to the remote repo.
+   - Have your commit message be something like "Initial Commit."
+   - We will use this repo for a later lab.
+5. [Invite your instructor as a collaborator on this
+   repo](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository)
+   so that it can be graded.
