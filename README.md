@@ -1,4 +1,4 @@
-# Lab 4 - Intro to the Intellij IDEA + Records
+# Lab 5 - Intro to the Intellij IDEA + Records
 
 **Authors**: Jon Mrowczynski
 
