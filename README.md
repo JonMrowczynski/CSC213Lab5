@@ -1,4 +1,4 @@
-# Lab 3 - Implementing Your First Object
+# Lab 4 - Implementing Your First Object
 
 **Author**: Justin Del Vecchio
 
