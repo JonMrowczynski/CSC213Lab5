@@ -5,7 +5,7 @@
  * <p>
  * This implementation assumes that {@link ElapsedTimer#stop()} is always called after a {@link ElapsedTimer#start()}
  * call. It is also assumed that a {@link ElapsedTimer#averageElapsedTime()}, {@link ElapsedTimer#reset()}, and
- * {@link ElapsedTimer#start()} are always called after a {@link ElapsedTimer#start()} call. This is generally not
+ * {@link ElapsedTimer#start()} are always called after a {@link ElapsedTimer#stop()} call. This is generally not
  * a safe assumption to make! However, it helps to simplify significantly simplify our implementation.
  *
  * @author Jon Mrowczynski
