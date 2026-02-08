@@ -38,6 +38,12 @@ The 1st `for` loop creates a random array of 10,000 `Integer`s, while the 2nd `f
 10,000 `Double`s. Both also use Java's Stream API to do so quite succinctly.
 Can you understand what each `Stream` method call does?
 
+Notice that we are using `Integer` and `Double` instead of `int` and `double`.
+
+### Q1: What kind of classes are `Integer` and `Double`?
+
+[Answer here]
+
 Additionally, both loops already call the `bubbleSort` function to sort these arrays.
 
 The comments in the `main` method **identify your tasks**! You will need to create code where you see the comments.
