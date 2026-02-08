@@ -1,15 +1,8 @@
-# Lab 5 - Intro to the Intellij IDEA + Records
+# Lab 4 - Intellij + Gradle 4evr <3
 
 **Authors**: Jon Mrowczynski
 
-Objectives:
-
-1. Learn about Intellij.
-2. Create your first Intellij project.
-3. Learn how to use some of Intellij's built-in tools to help you write/improve code.
-4. Learn a bit about a special subclass of classes called records
-
-## Part 1: Setting up a Local Intellij Project
+## Part 1a: Setting up a Local Intellij Project
 
 1. Open Intellij and create a New Project by going to *File -> New -> Project*.
 2. Name the project *Lab4* and select a JDK version of 21.
@@ -17,9 +10,10 @@ Objectives:
 3. Leave the *Build system:* selected as *Intellij*.
     - **Later** we will use Gradle! A very powerful project management/build system that makes handling larger, more complex
       projects a comparative breeze.
-4. Uncheck *Add sample code* and then click *Create*.
+4. Ensure *Add sample code* is unchecked and then click *Create*.
 5. Add the below code into a Java source file in the *src* directory and give it an appropriate name.
     - You can add a new source file to the project by right-clicking on the *src* directory and going to *New -> Java Class*.
+    - **Notice that your source folder is highlighted in blue**!
 ```java
 import java.io.File;
 import java.io.FileFilter;
@@ -96,13 +90,13 @@ public class Point2D {
 }
 ```
 
-## Part 2: Intro to Intellij's Built-in Tools
+## Part 1b: Intro to Intellij's Built-in Tools
 
 We could have an entire course dedicated to learning Intellij! We will only go
-over an **extremely** small number of its more commonly used features. We'll cover more throughout the semester and you'll
-probably pick up more on your own as we go.
+over an **extremely** small number of its more commonly used features. We'll cover more throughout the semester and I'm sure you'll pick
+up more on your own.
 
-Open/view the `SubDirLister` class and click on the *Run* button next to *Current File*. This runs the currently selected/viewed
+Open/View the `SubDirLister` class and click on the *Run* button next to *Current File*. This runs the currently selected/viewed
 Java source file. **Notice this program was compiled and run without explicitly invoking `javac` or `java`!**
 
 ### Q1: When the program is run, what is printed below `The subdirectories found include:`?
@@ -144,7 +138,7 @@ has suggested edits for improving your code. Click on any of the text that is un
 
 [Answer Here]
 
-## Part 3: Converting a `class` to a `record`.
+## Part 1c: Converting a `class` to a `record`.
 
 Now open/view the `Point2D` class, run it, and examine the output. Notice that the first few lines of output print the `Point2D`
 **reference** rather than a nicely formatted `String` representing the 2D point.
@@ -172,15 +166,33 @@ There should now be a faded yellow squiggle under `Point2D`. Click somewhere on 
 
 ### Task 1: Admire the simplicity of the `Point2D` `record` vs. the original equivalently functional `Point2D` `class`.
 
-## Part 4: Submit Work to Private GitHub Repo
+## Part 2: Intellij + Gradle!
 
-1. Create a new empty and **private** GitHub repository named `CSC213Lab4`.
-   - The assignment will not be graded if the repo is not **private**.
-2. Clone this empty repo locally.
-3. Copy and paste your filled out version of this `README` and your simplified `SubDirLister`, and `Point2D` Java source files into this local repo.
-4. Commit and push your changes to the remote repo.
-   - Have your commit message be something like "Initial Commit."
-   - We will use this repo for a later lab.
-5. [Invite your instructor as a collaborator on this
-   repo](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository)
-   so that it can be graded.
+You can clone repos from the terminal...or you could just use Intellij to clone it for you! You can access the *Clone
+Repository* window through two different ways:
+
+- If you don't have a project currently open, click *Clone Repository*.
+- If you have a project currently open, go to `*Main Menu* -> *New* -> *Project from Version Control...*.
+
+Now copy and past the HTTPS URL of the repo you want to clone into the *URL* field. Here, we will clone:
+https://github.com/JonMrowczynski/CSC213SimpleGradleProject.git
+
+Ensure that you are cloning the repo into a desirable directory location and then click *Clone*. This not only clones the
+repository...
+
+However, if the repo included files from a build system that's recognized by Intellij, it will automatically setup the project
+for you! This should be the case for this repo.
+
+Follow the README in this repository before continuing to the last Part.
+
+## Part 3: Submit Work to the corresponding D2L Dropbox
+
+Submit to D2L:
+- For Part 1 your:
+   1. SubDirLister.java
+   2. Point2D.java
+   3. Filled out README.md
+- For Part 2 your:
+   1. Range.java
+   2. RangeTest.java
+   3. Filled out README.md
