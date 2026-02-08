@@ -61,27 +61,21 @@ Lastly. `ElapsedTimer` should be able to find the average time for a start/stop 
 
 ## Part 3: Implement the code for `BubbleSorting.java` and `ElapsedTimer.java`
 
-Note, do not implement the `reset()` method in `ElapsedTimer` yet! 
+Note, do not implement the `reset()` method in `ElapsedTimer` yet!
 Get it working non-optimally first! Here are some tips:
 
-1. To compile all `.java` files in the current directory, you can enter the command:
+1. Build incrementally! Meaning:
+    1. Add code a few lines at a time until you reach a mini-milestone. For example - "I think I defined the 
+       instance variables I want."
+    2. Compile at that point! You may have introduced *compilation errors*, and it's best to catch those sooner rather
+       than later! A common error new programmers make is generating a bunch of code, get multiple *compilation 
+       errors* when they *compile*, and are then overwhelmed by the volume of errors.
+        - **Since we are using Intellij, it will thankfully tell us if we will encounter compilation errors prior to 
+          compiling! These will be indicated through red highlighting and/or underlining of text.** 
+2. Test incrementally. Make sure to *run* your class incrementally as well. You may have introduced *runtime errors*.
 
-```
-javac *.java
-```
-
-2. Build incrementally! Meaning:
-    1. Add code a few lines at a time until you reach a mini-milestone. For example - "I think I defined the instance
-       variables
-       I want."
-    2. Compile at that point! You may have introduced *compilation errors* and it's best to catch those sooner rather
-       than
-       later! A common error new programmers make is generating a bunch of code, get multiple *compilation errors* when
-       they
-       *compile*, and are then overwhelmed by the volume of errors.
-3. Test incrementally. Make sure to *run* your class incrementally as well. You may have introduced *runtime errors*.
-
-On the instructor's 6-year-old mid-grade laptop, the average elapsed time for the first for loop was roughly 0.22s.
+On the instructor's 6-year-old mid-grade laptop, the average elapsed time to run each iteration of the first for loop 
+was roughly 0.22s.
 
 ## Part 4: Implement the `reset()` method.
 
@@ -98,5 +92,6 @@ This method should, literally, reset the instance variables in `ElapsedTimer` to
 ## Part 5: Submit to D2L
 
 Submit to the corresponding D2L dropbox your:
+
 1. `ElapsedTimer.java`
 2. `BubbleSorting.java`
