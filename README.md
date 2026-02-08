@@ -13,7 +13,7 @@
 4. Ensure *Add sample code* is unchecked and then click *Create*.
 5. Add the below code into a Java source file in the *src* directory and give it an appropriate name.
     - You can add a new source file to the project by right-clicking on the *src* directory and going to *New -> Java Class*.
-    - **Notice that your source folder is highlighted in blue**!
+    - **Notice that the src directory is colored blue**!
 ```java
 import java.io.File;
 import java.io.FileFilter;
