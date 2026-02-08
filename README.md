@@ -1,6 +1,6 @@
 # Lab 4 - Intellij + Gradle 4evr <3
 
-**Authors**: Jon Mrowczynski
+**Author**: Jon Mrowczynski
 
 ## Part 1a: Setting up a Local Intellij Project
 
@@ -99,16 +99,20 @@ up more on your own.
 Open/View the `SubDirLister` class and click on the *Run* button next to *Current File*. This runs the currently selected/viewed
 Java source file. **Notice this program was compiled and run without explicitly invoking `javac` or `java`!**
 
-### Q1: When the program is run, what is printed below `The subdirectories found include:`?
+- Notice that you can do the same thing by clicking the *Run* button on the same line as `main`.
+
+### Q1: When the program is run, what is printed below `The subdirectories found include:`? Copy and paste your answer below.
+
 ```
 [Answer Here]
 ```
 
 Notice how `new FileFilter()` is faded compared to the rest of the code. Click somewhere within the text `new FileFilter()` and press
-`Alt+Enter` . You can use this keyboard shortcut anywhere in Intellij's editor to get Intellij's suggested edits, which are
+`Alt+Enter` or `Cmd+Enter`. You can use this keyboard shortcut anywhere in Intellij's editor to get Intellij's suggested edits, which are
 next to the yellow lightbulb icon. Select the *Replace with lambda* option. 
 
 ### Q2: What is the new code that was generated?
+
 ```java
 [Answer Here]
 ```
@@ -120,21 +124,29 @@ next to the yellow lightbulb icon. Select the *Replace with lambda* option.
 Notice how `import java.io.FileFilter` is now similarly formatted to how `new FileFilter()` was before removed by
 Intellij.
 
-Click anywhere in Intellij's text editor for this file and press `Ctrl+Alt+Shift+L`. This should bring up a *Reformat File* window. You can see what code it will automatically reformat in the *Scope* section and what kinds of reformatting will be
+Click anywhere in Intellij's text editor for this file and press `Ctrl+Alt+Shift+L` or `Ctrl+Cmd+Shift+L`. This should bring up a *Reformat File* window. You can see what code it will automatically reformat in the *Scope* section and what kinds of reformatting will be
    performed in the *Options* section. These defaults are usually fine. Click *Run* to run these reformattings.
    
 Among other things, this *Optimizes Imports* which removes any and all unused imports.
 
 There should be a yellow squiggle under the new text that Intellij generated. This is another way for Intellij to tell you it
 has suggested edits for improving your code. Click on any of the text that is underlined with this yellow squiggle, press
-`Alt+Enter`, and now select *Replace lambda with a method reference*.
+`Alt+Enter` or `Cmd+Enter`, and now select *Replace lambda with a method reference*.
 
-### Q4: What is the new code that was generated?
+### Q4: What is a lambda?
+
+[Answer here]
+
+### Q5: What is a method reference?
+
+[Answer here]
+
+### Q6: What is the new code that was generated?
 ```java
 [Answer Here]
 ```
 
-### Q5: Does the output of the program differ if it is run again with these changes? If so, how?
+### Q7: Does the output of the program differ if it is run again with these changes? If so, how?
 
 [Answer Here]
 
@@ -149,18 +161,14 @@ Now open/view the `Point2D` class, run it, and examine the output. Notice that t
 2. Ensure you correctly formatted the `String` representation of a `Point2D` by running the file.
 3. Once you get this working, delete the `TODO` comment.
 
-There should now be a faded yellow squiggle under `Point2D`. Click somewhere on `Point2D`, press `Alt+Enter`, and select
+There should now be a faded yellow squiggle under `Point2D`. Click somewhere on `Point2D`, press `Alt+Enter` or `Cmd+Enter`, and select
 *Convert to record class*.
 
-### Q6: Does the output of the program differ if it is run again with these changes? If so, how?
-
-[Answer Here]
-
-### Q7: Why does `p1 == p2` return `false` while `p1.equals(p2)` return `true`?
-
-[Answer Here]
-
 ### Q8: Does the output of the program differ if it is run again with these changes? If so, how?
+
+[Answer Here]
+
+### Q9: Why does `p1 == p2` return `false` while `p1.equals(p2)` return `true`?
 
 [Answer Here]
 
