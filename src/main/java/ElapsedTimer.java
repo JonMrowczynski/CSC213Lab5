@@ -38,7 +38,7 @@ public class ElapsedTimer {
 	 * Returns the average elapsed time of all paired start-stop events. This should only be called after
 	 * {@link ElapsedTimer} has been stopped.
 	 *
-	 * @return The average elapsed time of all paired start-stop sequences.
+	 * @return The average elapsed time in seconds of all paired start-stop sequences.
 	 */
 	public double averageElapsedTime() {
 		// TODO: Implement this method.
