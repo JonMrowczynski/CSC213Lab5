@@ -88,6 +88,17 @@ This method should, literally, reset the instance variables in `ElapsedTimer` to
 5. Run `BubbleSorting` and ensure that you get the similar results.
     - The times might vary a bit among the runs since the values in the arrays are random and the amount of time bubble
       sorting takes to run is dependent on how many swaps are required.
+6. Finally, make sure that all tests in `ElapsedTimerTest.BasicTimerTests` pass by running this test class.
+
+## Part 5: Making your ElapsedTimer more robust.
+
+Your implementation of `ElapsedTimer` probably makes quite a few assumptions about how it is utilized. While safe 
+for use in our `BubbleSorting` class, if someone else attempted to use your `ElapsedTimer` class, they may run into 
+unexpected problems.
+
+By reading the Javadocs of `ElapsedTimer` and running **all** the tests in `ElapsedTimerTest`, can you determine 
+how to modify your class such that all tests pass? Rather, can you figure out how to make your `ElapsedTimer` more 
+robust?
 
 ## Part 5: Submit to D2L
 

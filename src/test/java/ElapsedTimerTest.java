@@ -124,16 +124,14 @@ class ElapsedTimerTest {
 	@Nested class AdvancedTimerTests {
 		
 		/**
-		 * A helper method that
-		 */
-		private void testInitialState() {
-			assertEquals(0, timer.averageElapsedTime());
-		}
-		
-		/**
 		 * Tests that 0s is returned as the average elapsed time before the timer has even been started.
 		 */
 		@Test void testWithoutStarting() { testInitialState(); }
+		
+		/**
+		 * A helper method that
+		 */
+		private void testInitialState() { assertEquals(0, timer.averageElapsedTime()); }
 		
 		/**
 		 * Tests that reset sets the timer back to its initial state.
