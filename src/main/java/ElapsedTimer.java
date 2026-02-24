@@ -55,5 +55,7 @@ public class ElapsedTimer {
 	/**
 	 * Resets the {@link ElapsedTimer} back to its initial state.
 	 */
-	// TODO: Implement the reset method only once you get to Part 4!
+	public void reset() {
+		// TODO: Implement the reset method only once you get to Part 4!
+	}
 }
