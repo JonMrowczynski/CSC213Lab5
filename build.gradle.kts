@@ -19,9 +19,8 @@ repositories {
 // A runtime only dependency is a dependency that is used only during...well...runtime.
 // For more information on these dependency configurations: https://docs.gradle.org/current/userguide/dependency_configurations.html
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter-api:6.0.2")
-    testImplementation("org.junit.jupiter:junit-jupiter:6.0.2")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.0.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:6.0.2")
 }
 
 tasks.test {
