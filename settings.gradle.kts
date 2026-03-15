@@ -1,1 +1,1 @@
-rootProject.name = "CSC213LAB5"
+rootProject.name = "CSC213Lab5"
