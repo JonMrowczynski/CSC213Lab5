@@ -100,9 +100,12 @@ By reading the Javadocs of `ElapsedTimer` and running **all** the tests in `Elap
 how to modify your class such that all tests pass? Rather, can you figure out how to make your `ElapsedTimer` more 
 robust?
 
-## Part 5: Submit to D2L
+## Part 6: Submit to D2L
 
 Submit to the corresponding D2L dropbox your:
 
 1. `ElapsedTimer.java`
 2. `BubbleSorting.java`
+
+and provide your answer to Q1 somewhere in your submission (for example you can either upload the README with your answer or
+provide your answer in your submission comments.)
